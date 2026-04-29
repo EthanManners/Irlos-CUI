@@ -1,0 +1,15 @@
+[package]
+name = "irlos-tui"
+version = "0.1.0-dev"
+edition = '2021'
+authors = ["Ethan Manners <ethanjmanners@gmail.com>"]
+description = "Terminal UI front end for irlosd"
+readme = "README.md"
+homepage = "https://irlos.live"
+repository = "https://github.com/EthanManners/Irlos-CUI"
+license = "GPL-3.0-or-later"
+
+
+[dependencies]
+ratatui = "0.28"
+

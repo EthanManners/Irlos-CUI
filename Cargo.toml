@@ -1,0 +1,5 @@
+[workspace]
+members = ["irlosd", "irlos-tui"]
+exclude = ["archive"]
+resolver = "2"
+

@@ -1,0 +1,15 @@
+[package]
+name = "irlosd"
+version = "0.1.0-dev"
+edition = '2021'
+authors = ["Ethan Manners <ethanjmanners@gmail.com>"]
+description = "Daemon for irlosd"
+readme = "README.md"
+homepage = "https://irlos.live"
+repository = "https://github.com/EthanManners/Irlos-CUI"
+license = "GPL-3.0-or-later"
+
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "io-util", "time", "sync", "signal", ]}
+
